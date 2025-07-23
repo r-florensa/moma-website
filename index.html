@@ -5,13 +5,87 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MÖMA · Contes que abracen</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" href="favicon.ico">
 </head>
-<body class="bg-yellow-50 text-gray-800 font-sans">
-  <!-- Simplificat per brevitat... -->
-  <footer class="bg-yellow-100 py-8 text-center text-sm">
-    <p>&copy; 2025 MÖMA. Creat amb amor per a famílies que estimen llegir.</p>
-    <p class="mt-2">Contacte: <a href="mailto:momaemociona@gmail.com" class="text-blue-600 hover:underline">momaemociona@gmail.com</a></p>
+<body class="bg-yellow-50 text-gray-800">
+  <!-- Idiomes -->
+  <div class="p-4 text-right text-sm">
+    <span class="text-gray-500">🌐</span>
+    <a href="#" class="ml-2 text-blue-700 hover:underline">Català</a>
+    <a href="#" class="ml-2 hover:underline">Español</a>
+    <a href="#" class="ml-2 hover:underline">English</a>
+  </div>
+
+  <!-- Capçalera -->
+  <header class="bg-cover bg-center py-24 px-6 text-center" style="background-image: url('Portada web.png');">
+    <div class="bg-white bg-opacity-80 max-w-2xl mx-auto rounded-xl p-6">
+      <img src="MÖMA LOGO.png" alt="Logo MÖMA" class="mx-auto w-28 mb-4">
+      <h1 class="text-5xl font-bold leading-tight">MÖMA</h1>
+      <h2 class="text-2xl text-gray-700">Contes que abracen</h2>
+      <p class="mt-4">Contes infantils de 3 a 7 anys que connecten emocions, valors i bellesa.<br> Creats per una mestra i psicopedagoga. Il·lustracions dolces. Històries que perduren.</p>
+      <a href="#contes" class="mt-6 inline-block bg-white text-blue-600 font-semibold px-6 py-3 rounded-full shadow hover:bg-blue-100">Descobreix els nostres contes</a>
+    </div>
+  </header>
+
+  <!-- Secció: Característiques -->
+  <section class="py-20 px-6 text-center bg-white">
+    <h2 class="text-3xl font-bold mb-12">Per què els nostres contes són especials?</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+      <div>
+        <img src="https://img.icons8.com/ios/100/edit--v1.png" class="mx-auto mb-4" alt="Personalitzats">
+        <h3 class="font-semibold text-lg mb-2">Personalitzats</h3>
+        <p>Amb els nens com a protagonistes i disponibles en diversos idiomes.</p>
+      </div>
+      <div>
+        <img src="https://img.icons8.com/ios/100/values.png" class="mx-auto mb-4" alt="Valors">
+        <h3 class="font-semibold text-lg mb-2">Educar en valors</h3>
+        <p>Contes que reforcen l'empatia, la calma i l'autoestima.</p>
+      </div>
+      <div>
+        <img src="https://img.icons8.com/ios/100/gift--v1.png" class="mx-auto mb-4" alt="Regal únic">
+        <h3 class="font-semibold text-lg mb-2">Un regal únic</h3>
+        <p>Moments emocionants per compartir en família.</p>
+      </div>
+      <div>
+        <img src="https://img.icons8.com/ios/100/hand-with-heart.png" class="mx-auto mb-4" alt="Local">
+        <h3 class="font-semibold text-lg mb-2">Producció local</h3>
+        <p>Creats i impresos de manera artesanal i sostenible.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Secció de contes destacats -->
+  <section id="contes" class="py-16 px-6 bg-yellow-100">
+    <h2 class="text-3xl font-bold text-center mb-10">Els nostres contes</h2>
+    <div class="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+      <div class="bg-white p-4 rounded-lg shadow">
+        <h3 class="font-semibold text-lg">El Nadal que es va escapar</h3>
+        <p class="text-sm">Una invitació tendra a viure el Nadal amb calma i amor.</p>
+      </div>
+      <div class="bg-white p-4 rounded-lg shadow">
+        <h3 class="font-semibold text-lg">La llum de la Llumeta</h3>
+        <p class="text-sm">Descobreix com brillar des del cor sense competir amb ningú.</p>
+      </div>
+      <div class="bg-white p-4 rounded-lg shadow">
+        <h3 class="font-semibold text-lg">El mapa secret d’en Martí</h3>
+        <p class="text-sm">Una eina emocional per trobar la calma dins teu.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonis -->
+  <section class="py-16 px-6 bg-white">
+    <h2 class="text-3xl font-bold text-center mb-10">Què diuen les famílies?</h2>
+    <div class="max-w-4xl mx-auto space-y-6">
+      <blockquote class="italic text-lg">"Vaig plorar d’emocions llegint el conte amb la meva filla. Ens va tocar el cor."</blockquote>
+      <blockquote class="italic text-lg">"El meu fill vol llegir-lo cada nit. La il·lustració i la història són precioses."</blockquote>
+      <blockquote class="italic text-lg">"Ens ajuden a parlar de les emocions d’una manera natural i bonica."</blockquote>
+    </div>
+  </section>
+
+  <!-- Peu de pàgina -->
+  <footer class="py-8 px-6 bg-gray-100 text-center text-sm text-gray-600">
+    &copy; 2025 MÖMA · Creat amb amor
   </footer>
 </body>
 </html>
